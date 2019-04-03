@@ -1,0 +1,258 @@
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+a:hover {
+  text-decoration: none;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+#header .navbar {
+  background-color: #fff;
+  border-bottom: 2px solid #0ba1e4;
+  margin-bottom: 0;
+}
+#header .navbar .container .navbar-header .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+#header .navbar .container .navbar-collapse .navbar-right li a {
+  padding-top: 16px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  margin-top: 14px;
+}
+#header .navbar .container .navbar-collapse .navbar-right li a:hover {
+  color: #0ba1e4;
+}
+#header .navbar .container .navbar-collapse .navbar-right li p {
+  height: 1px;
+  width: 20px;
+  margin: 0 auto;
+  border-top: 1px solid #0ba1e4;
+}
+#header .navbar .container .navbar-collapse .navbar-right li.active a {
+  color: #0ba1e4;
+}
+.sliders {
+  margin-top: 80px;
+}
+.sliders #carousel-example-generic .carousel-inner .item .big-pic {
+  width: 100%;
+  height: 540px;
+  background-position: center center;
+}
+.sliders #carousel-example-generic .carousel-inner .item .sm-pic {
+  width: 100%;
+}
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.success h4 {
+  font-size: 36px;
+}
+.success .line {
+  margin-top: 20px;
+  height: 2px;
+  width: 80px;
+  border: 1px solid #0ba1e4;
+}
+.success h2 {
+  font-size: 20px;
+  color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.success .container div {
+  text-align: center;
+}
+.success .container div span {
+  font-size: 50px;
+  color: #0ba1e4;
+}
+.success .container div p {
+  font-size: 18px;
+  color: #ccc;
+}
+.advantage {
+  background-color: #ccc;
+  padding: 50px 0;
+}
+.advantage .container .row {
+  text-align: center;
+}
+.advantage .container .row .top {
+  margin-bottom: 30px;
+}
+.advantage .container .row .top h4 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.advantage .container .row .top p {
+  height: 2px;
+  border: 1px solid #0ba1e4;
+  width: 80px;
+  margin: 30px auto 26px;
+}
+.advantage .container .row .top h2 {
+  font-size: 20px;
+}
+.advantage .container .row .down div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+.advantage .container .row .down div:hover {
+  color: #fff;
+  background-color: #0ba1e4;
+}
+.advantage .container .row .down div:hover i {
+  color: #fff;
+}
+.advantage .container .row .down div i {
+  color: #0ba1e4;
+  font-size: 60px;
+  line-height: 1.5em;
+}
+.advantage .container .row .down div h3 {
+  line-height: 1.5em;
+}
+.advantage .container .row .down div span {
+  line-height: 1.5em;
+  font-size: 14px;
+}
+.service {
+  text-align: center;
+  padding: 50px 0;
+}
+.service .container .row .top {
+  margin-bottom: 30px;
+}
+.service .container .row .top h4 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.service .container .row .top p {
+  height: 2px;
+  border: 1px solid #0ba1e4;
+  width: 80px;
+  margin: 30px auto 26px;
+}
+.service .container .row .top h2 {
+  font-size: 20px;
+}
+.service .container .row .down {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.service .container .row .down ul li {
+  padding: 0;
+  border: 1px solid #ccc;
+}
+.service .container .row .down ul li:hover {
+  transition: .3s all;
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #0ba1e4;
+  z-index: 998;
+}
+.service .container .row .down ul li:hover .card-title h3 {
+  color: #fff;
+  border-color: #fff;
+}
+.service .container .row .down ul li:hover .card-content a {
+  color: #fff;
+  border-color: #fff;
+}
+.service .container .row .down ul li:hover .card-content a:hover {
+  transition: all .2s;
+  color: #0ba1e4;
+  background-color: #fff;
+  border-color: #fff;
+}
+.service .container .row .down ul li .card-title {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.service .container .row .down ul li .card-title h3 {
+  color: #0ba1e4;
+}
+.service .container .row .down ul li .card-content {
+  padding: 30px 0;
+}
+.service .container .row .down ul li .card-content a {
+  border: 1px solid #0ba1e4;
+  padding: 5px;
+  border-radius: 5px;
+}
+.service .container .row .down ul li .card-content p {
+  margin-bottom: 10px;
+  line-height: 3em;
+}
+.service .container .row .moreservice a {
+  border: 1px solid #0ba1e4;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.service .container .row .moreservice a:hover {
+  transition: all .5s;
+  background-color: #0ba1e4;
+  color: #fff;
+}
+.encourage {
+  background-color: #ccc;
+  padding: 50px 0;
+}
+.encourage .container .row {
+  text-align: center;
+}
+.encourage .container .row .top {
+  margin-bottom: 30px;
+}
+.encourage .container .row .top h4 {
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.encourage .container .row .top p {
+  height: 2px;
+  border: 1px solid #0ba1e4;
+  width: 80px;
+  margin: 30px auto 26px;
+}
+.encourage .container .row .top h2 {
+  font-size: 20px;
+}
+.encourage .container .row .down .outer {
+  position: relative;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.encourage .container .row .down .outer img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  left: 50%;
+  margin-left: -25px;
+  top: -25px;
+}
+.encourage .container .row .down .outer p {
+  padding: 9px 14px;
+  margin-top: 9% ;
+  -webkit-line-clamp: 5;
+  text-overflow: hidden;
+}
